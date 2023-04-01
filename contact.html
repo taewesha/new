@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anwesha Naskar - Web Developer, Programmer, Coding enthusiast </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Pacifico&family=Shantell+Sans:ital@1&display=swap');
+    </style>
+        
+</head>
+<body>
+ <div class="container">
+    <div class="sidebar sidebarGo">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/intro.html">My Intro</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/quiz.html">Blog</a></li>
+                <li><a href="/contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+      <div class="hamburger">
+        <img class="ham" src="ham.jpg" alt="" width="20px">
+        <img class="cross" src="cross.jpg" alt="" width="20px">
+    </div>
+       <div class="contactform">
+        <h1>Contact me for Work and General enquiries</h1>
+        <form>
+            <div class="form-group">
+                <label for="clientname">Name</label>
+                <input type="name" class="form-control" id="clientname" placeholder="Enter name">
+              </div>
+            <div class="form-group">
+              <label for="clientemail">Email address</label>
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email & phone with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="clientphone">Phone</label>
+              <input type="phone" class="form-control" id="clientphone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label for="clientenquiry">Enquiry</label>
+                <input type="enquiry" class="form-control" id="clientenquiry" placeholder="Please write your enquiry">
+              </div>
+            <div class="form-check" id="form-check">
+              <input type="checkbox" class="form-check-input" id="isclient">
+              <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+            </div>
+            <button type="submit" class="btn btn-sm">Submit</button>
+        </form>
+       </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
